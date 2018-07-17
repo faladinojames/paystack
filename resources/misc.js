@@ -23,6 +23,11 @@ module.exports = {
 	  method: 'get',
     endpoint: '/bank/resolve',
     params: ['account_number', 'bank_code']
+  },
+  
+  get_account_balance: {
+    method: 'get',
+    endpoint: '/balance'
   }
 	
 }
